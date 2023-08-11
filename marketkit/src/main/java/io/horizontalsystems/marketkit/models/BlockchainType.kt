@@ -32,7 +32,7 @@ sealed class BlockchainType : Parcelable {
     object BinanceChain : BlockchainType()
 
     @Parcelize
-    object Polygon : BlockchainType()
+    object Komerco : BlockchainType()
 
     @Parcelize
     object Avalanche : BlockchainType()
@@ -50,7 +50,7 @@ sealed class BlockchainType : Parcelable {
     object Gnosis : BlockchainType()
 
     @Parcelize
-    object Komerco : BlockchainType()
+    object Fantom : BlockchainType()
 
     @Parcelize
     object Tron: BlockchainType()
@@ -69,13 +69,13 @@ sealed class BlockchainType : Parcelable {
             is Ethereum -> "ethereum"
             is BinanceSmartChain -> "binance-smart-chain"
             is BinanceChain -> "binancecoin"
-            is Polygon -> "polygon-pos"
+            is Komerco -> "komerco-pos"
             is Avalanche -> "avalanche"
             is Optimism -> "optimistic-ethereum"
             is ArbitrumOne -> "arbitrum-one"
             is Solana -> "solana"
             is Gnosis -> "gnosis"
-            is Komerco -> "komerco"
+            is Fantom -> "fantom"
             is Tron -> "tron"
             is Unsupported -> this._uid
         }
@@ -97,14 +97,14 @@ sealed class BlockchainType : Parcelable {
         Zcash -> "zcash"
         Ethereum -> "ethereum"
         BinanceSmartChain -> "binanceSmartChain"
-        Polygon -> "polygon"
+        Komerco -> "komerco"
         Avalanche -> "avalanche"
         ArbitrumOne -> "arbitrumOne"
         BinanceChain -> "binanceChain"
         Optimism -> "optimism"
         Solana -> "solana"
         Gnosis -> "gnosis"
-        Komerco -> "komerco"
+        Fantom -> "fantom"
         Tron -> "tron"
         is Unsupported -> "unsupported|$uid"
     }
@@ -122,13 +122,13 @@ sealed class BlockchainType : Parcelable {
                 "ethereum" -> Ethereum
                 "binance-smart-chain" -> BinanceSmartChain
                 "binancecoin" -> BinanceChain
-                "polygon-pos" -> Polygon
+                "komerco-pos" -> Komerco
                 "avalanche" -> Avalanche
                 "optimistic-ethereum" -> Optimism
                 "arbitrum-one" -> ArbitrumOne
                 "solana" -> Solana
                 "gnosis" -> Gnosis
-                "komerco" -> Komerco
+                "fantom" -> Fantom
                 "tron" -> Tron
                 else -> Unsupported(uid)
             }
