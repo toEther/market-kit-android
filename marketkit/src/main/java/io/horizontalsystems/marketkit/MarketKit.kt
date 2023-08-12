@@ -428,7 +428,7 @@ class MarketKit(
             val hsDataSyncer = HsDataSyncer(coinSyncer, hsProvider)
 
             return MarketKit(
-                //nftManager,
+                nftManager
                 //marketOverviewManager,
                 //coinManager,
                 //coinSyncer,
