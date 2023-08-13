@@ -286,7 +286,7 @@ class HsProvider(baseUrl: String, apiKey: String) {
 
     private interface MarketService {
 
-        @GET("coins")
+        @GET("coinss")
         fun getMarketInfos(
             @Query("limit") top: Int,
             @Query("currency") currencyCode: String,
@@ -295,7 +295,7 @@ class HsProvider(baseUrl: String, apiKey: String) {
             @Query("fields") fields: String = marketInfoFields,
         ): Single<List<MarketInfoRaw>>
 
-        @GET("coins")
+        @GET("coinss")
         fun getAdvancedMarketInfos(
             @Query("limit") top: Int,
             @Query("currency") currencyCode: String,
@@ -303,7 +303,7 @@ class HsProvider(baseUrl: String, apiKey: String) {
             @Query("fields") fields: String = advancedMarketFields,
         ): Single<List<MarketInfoRaw>>
 
-        @GET("coins")
+        @GET("coinss")
         fun getMarketInfos(
             @Query("uids") uids: String,
             @Query("currency") currencyCode: String,
@@ -328,7 +328,7 @@ class HsProvider(baseUrl: String, apiKey: String) {
             @Query("currency") currencyCode: String,
         ): Single<List<CoinCategoryMarketPoint>>
 
-        @GET("coins")
+        @GET("coinss")
         fun getCoinPrices(
             @Query("uids") uids: String,
             @Query("currency") currencyCode: String,
@@ -531,7 +531,7 @@ class HsProvider(baseUrl: String, apiKey: String) {
         companion object {
             private const val marketInfoFields =
                 "name,code,price,price_change_24h,market_cap_rank,coingecko_id,market_cap,market_cap_rank,total_volume"
-            private const val coinPriceFields = "price,price_change_24h,last_updated112233"
+            private const val coinPriceFields = "price,price_change_24h,last_updated"
             private const val advancedMarketFields =
                 "all_platforms,price,market_cap,total_volume,price_change_24h,price_change_7d,price_change_14d,price_change_30d,price_change_200d,price_change_1y,ath_percentage,atl_percentage"
         }
