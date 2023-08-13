@@ -69,7 +69,7 @@ sealed class BlockchainType : Parcelable {
             is Ethereum -> "ethereum"
             is BinanceSmartChain -> "binance-smart-chain"
             is BinanceChain -> "binancecoin"
-            is Komerco -> "komerco-pos"
+            is Komerco -> "komerco"
             is Avalanche -> "avalanche"
             is Optimism -> "optimistic-ethereum"
             is ArbitrumOne -> "arbitrum-one"
@@ -122,7 +122,7 @@ sealed class BlockchainType : Parcelable {
                 "ethereum" -> Ethereum
                 "binance-smart-chain" -> BinanceSmartChain
                 "binancecoin" -> BinanceChain
-                "komerco-pos" -> Komerco
+                "komerco" -> Komerco
                 "avalanche" -> Avalanche
                 "optimistic-ethereum" -> Optimism
                 "arbitrum-one" -> ArbitrumOne

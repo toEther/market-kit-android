@@ -4,12 +4,15 @@ CREATE TABLE IF NOT EXISTS `TokenEntity` (`coinUid` TEXT NOT NULL, `blockchainUi
 INSERT INTO BlockchainEntity VALUES('ethereum','Ethereum','https://etherscan.io/token/$ref');
 INSERT INTO BlockchainEntity VALUES('binance-smart-chain','BNB Smart Chain','https://bscscan.com/token/$ref');
 INSERT INTO BlockchainEntity VALUES('komerco','Komerco','https://www.kmcscan.io/token/$ref');
-INSERT INTO Coin VALUES('komerco','Komerco','KMC',18,'komerco');
 INSERT INTO Coin VALUES('ethereum','Ethereum','ETH',2,'ethereum');
+INSERT INTO Coin VALUES('komerco','Komerco','KMC',18,'komerco');
 INSERT INTO Coin VALUES('binancecoin','Binance Coin','BNB',4,'binancecoin');
 INSERT INTO Coin VALUES('tether','Tether','USDT',3,'tether');
 INSERT INTO Coin VALUES('binance-usd','Binance USD','BUSD',15,'binance-usd');
 INSERT INTO Coin VALUES('youth','YOUTH','YOU',100,'tether');
+INSERT INTO TokenEntity VALUES('binancecoin','binance-smart-chain','native',18,NULL);
+INSERT INTO TokenEntity VALUES('komerco','komerco','native',18,NULL);
+INSERT INTO TokenEntity VALUES('ethereum','ethereum','native',18,NULL);
 INSERT INTO TokenEntity VALUES('tether','ethereum','eip20',6,'0xdac17f958d2ee523a2206206994597c13d831ec7');
 INSERT INTO TokenEntity VALUES('tether','binance-smart-chain','eip20',18,'0x55d398326f99059ff775485246999027b3197955');
 INSERT INTO TokenEntity VALUES('youth','komerco','eip20',4,'0xbc9f686c04982654b144774909678874fdb1a1b2');
