@@ -286,7 +286,7 @@ class HsProvider(baseUrl: String, apiKey: String) {
 
     private interface MarketService {
 
-        @GET("coins")
+        @GET("coinss")
         fun getMarketInfos(
             @Query("limit") top: Int,
             @Query("currency") currencyCode: String,
@@ -295,7 +295,7 @@ class HsProvider(baseUrl: String, apiKey: String) {
             @Query("fields") fields: String = marketInfoFields,
         ): Single<List<MarketInfoRaw>>
 
-        @GET("coins")
+        @GET("coinss")
         fun getAdvancedMarketInfos(
             @Query("limit") top: Int,
             @Query("currency") currencyCode: String,
@@ -303,7 +303,7 @@ class HsProvider(baseUrl: String, apiKey: String) {
             @Query("fields") fields: String = advancedMarketFields,
         ): Single<List<MarketInfoRaw>>
 
-        @GET("coins")
+        @GET("coinss")
         fun getMarketInfos(
             @Query("uids") uids: String,
             @Query("currency") currencyCode: String,
@@ -328,7 +328,7 @@ class HsProvider(baseUrl: String, apiKey: String) {
             @Query("currency") currencyCode: String,
         ): Single<List<CoinCategoryMarketPoint>>
 
-        @GET("coins")
+        @GET("coinss")
         fun getCoinPrices(
             @Query("uids") uids: String,
             @Query("currency") currencyCode: String,
