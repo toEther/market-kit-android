@@ -1,4 +1,4 @@
-package io.horizontalsystems.marketkit.demo
+package io.definenulls.marketkit.demo
 
 import android.content.Context
 import android.os.Bundle
@@ -8,9 +8,9 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.RecyclerView
-import io.horizontalsystems.marketkit.MarketKit
-import io.horizontalsystems.marketkit.databinding.ActivityMainBinding
-import io.horizontalsystems.marketkit.databinding.ViewHolderItemBinding
+import io.definenulls.marketkit.MarketKit
+import io.definenulls.marketkit.databinding.ActivityMainBinding
+import io.definenulls.marketkit.databinding.ViewHolderItemBinding
 import kotlin.reflect.KFunction
 import kotlin.reflect.full.memberFunctions
 

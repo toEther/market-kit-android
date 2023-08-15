@@ -1,8 +1,8 @@
-package io.horizontalsystems.marketkit.managers
+package io.definenulls.marketkit.managers
 
-import io.horizontalsystems.marketkit.models.CoinPrice
-import io.horizontalsystems.marketkit.providers.CoinPriceSchedulerFactory
-import io.horizontalsystems.marketkit.Scheduler
+import io.definenulls.marketkit.models.CoinPrice
+import io.definenulls.marketkit.providers.CoinPriceSchedulerFactory
+import io.definenulls.marketkit.Scheduler
 import io.reactivex.Observable
 import io.reactivex.subjects.PublishSubject
 import java.util.concurrent.ConcurrentHashMap

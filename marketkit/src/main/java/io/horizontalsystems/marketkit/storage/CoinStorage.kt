@@ -1,7 +1,7 @@
-package io.horizontalsystems.marketkit.storage
+package io.definenulls.marketkit.storage
 
 import androidx.sqlite.db.SimpleSQLiteQuery
-import io.horizontalsystems.marketkit.models.*
+import io.definenulls.marketkit.models.*
 
 class CoinStorage(val marketDatabase: MarketDatabase) {
 

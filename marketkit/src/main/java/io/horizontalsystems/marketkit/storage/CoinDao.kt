@@ -1,9 +1,9 @@
-package io.horizontalsystems.marketkit.storage
+package io.definenulls.marketkit.storage
 
 import androidx.room.*
 import androidx.sqlite.db.SimpleSQLiteQuery
 import androidx.sqlite.db.SupportSQLiteQuery
-import io.horizontalsystems.marketkit.models.*
+import io.definenulls.marketkit.models.*
 
 @Dao
 interface CoinDao {

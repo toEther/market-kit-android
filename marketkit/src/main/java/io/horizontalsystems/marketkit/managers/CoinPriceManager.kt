@@ -1,7 +1,7 @@
-package io.horizontalsystems.marketkit.managers
+package io.definenulls.marketkit.managers
 
-import io.horizontalsystems.marketkit.models.CoinPrice
-import io.horizontalsystems.marketkit.storage.CoinPriceStorage
+import io.definenulls.marketkit.models.CoinPrice
+import io.definenulls.marketkit.storage.CoinPriceStorage
 
 class CoinPriceManager(
     private val storage: CoinPriceStorage

@@ -1,7 +1,7 @@
-package io.horizontalsystems.marketkit.syncers
+package io.definenulls.marketkit.syncers
 
 import android.util.Log
-import io.horizontalsystems.marketkit.providers.HsProvider
+import io.definenulls.marketkit.providers.HsProvider
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 

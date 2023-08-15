@@ -1,4 +1,4 @@
-package io.horizontalsystems.marketkit.models
+package io.definenulls.marketkit.models
 
 enum class LinkType(val v: String) {
     Guide("guide"),

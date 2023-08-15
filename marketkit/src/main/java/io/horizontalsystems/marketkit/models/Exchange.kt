@@ -1,4 +1,4 @@
-package io.horizontalsystems.marketkit.models
+package io.definenulls.marketkit.models
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey

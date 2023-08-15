@@ -1,10 +1,10 @@
-package io.horizontalsystems.marketkit.storage
+package io.definenulls.marketkit.storage
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import io.horizontalsystems.marketkit.models.GlobalMarketPoint
-import io.horizontalsystems.marketkit.models.HsPeriodType
+import io.definenulls.marketkit.models.GlobalMarketPoint
+import io.definenulls.marketkit.models.HsPeriodType
 import java.math.BigDecimal
 
 class DatabaseTypeConverters {

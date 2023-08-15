@@ -1,4 +1,4 @@
-package io.horizontalsystems.marketkit.providers
+package io.definenulls.marketkit.providers
 
 import com.google.gson.annotations.SerializedName
 import io.reactivex.Single

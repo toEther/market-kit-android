@@ -1,4 +1,4 @@
-package io.horizontalsystems.marketkit.models
+package io.definenulls.marketkit.models
 
 data class ChartInfoKey(
     val coinUid: String,

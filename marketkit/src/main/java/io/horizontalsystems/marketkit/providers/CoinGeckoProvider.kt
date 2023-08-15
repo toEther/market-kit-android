@@ -1,8 +1,8 @@
-package io.horizontalsystems.marketkit.providers
+package io.definenulls.marketkit.providers
 
-import io.horizontalsystems.marketkit.models.CoinGeckoCoinResponse
-import io.horizontalsystems.marketkit.models.Exchange
-import io.horizontalsystems.marketkit.models.ExchangeRaw
+import io.definenulls.marketkit.models.CoinGeckoCoinResponse
+import io.definenulls.marketkit.models.Exchange
+import io.definenulls.marketkit.models.ExchangeRaw
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Path

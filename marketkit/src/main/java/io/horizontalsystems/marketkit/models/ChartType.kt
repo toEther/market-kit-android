@@ -1,4 +1,4 @@
-package io.horizontalsystems.marketkit.models
+package io.definenulls.marketkit.models
 
 enum class ChartType(val interval: Long, val points: Int, val resource: String) {
     TODAY(30, 48, "histominute"),   // minutes

@@ -1,9 +1,9 @@
-package io.horizontalsystems.marketkit.managers
+package io.definenulls.marketkit.managers
 
-import io.horizontalsystems.marketkit.models.HsTimePeriod
-import io.horizontalsystems.marketkit.models.MarketOverview
-import io.horizontalsystems.marketkit.models.MarketOverviewResponse
-import io.horizontalsystems.marketkit.providers.HsProvider
+import io.definenulls.marketkit.models.HsTimePeriod
+import io.definenulls.marketkit.models.MarketOverview
+import io.definenulls.marketkit.models.MarketOverviewResponse
+import io.definenulls.marketkit.providers.HsProvider
 import io.reactivex.Single
 
 class MarketOverviewManager(

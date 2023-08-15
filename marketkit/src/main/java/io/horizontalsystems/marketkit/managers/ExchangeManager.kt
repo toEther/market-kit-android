@@ -1,7 +1,7 @@
-package io.horizontalsystems.marketkit.managers
+package io.definenulls.marketkit.managers
 
-import io.horizontalsystems.marketkit.models.Exchange
-import io.horizontalsystems.marketkit.storage.ExchangeStorage
+import io.definenulls.marketkit.models.Exchange
+import io.definenulls.marketkit.storage.ExchangeStorage
 
 class ExchangeManager(private val storage: ExchangeStorage) {
 

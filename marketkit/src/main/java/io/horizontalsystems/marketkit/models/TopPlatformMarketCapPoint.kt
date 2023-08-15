@@ -1,4 +1,4 @@
-package io.horizontalsystems.marketkit.models
+package io.definenulls.marketkit.models
 
 import com.google.gson.annotations.SerializedName
 import java.math.BigDecimal

@@ -1,15 +1,15 @@
-package io.horizontalsystems.marketkit
+package io.definenulls.marketkit
 
 import android.content.Context
 import android.os.storage.StorageManager
-import io.horizontalsystems.marketkit.chart.HsChartRequestHelper
-import io.horizontalsystems.marketkit.managers.*
-import io.horizontalsystems.marketkit.models.*
-import io.horizontalsystems.marketkit.providers.*
-import io.horizontalsystems.marketkit.storage.*
-import io.horizontalsystems.marketkit.syncers.CoinSyncer
-import io.horizontalsystems.marketkit.syncers.ExchangeSyncer
-import io.horizontalsystems.marketkit.syncers.HsDataSyncer
+import io.definenulls.marketkit.chart.HsChartRequestHelper
+import io.definenulls.marketkit.managers.*
+import io.definenulls.marketkit.models.*
+import io.definenulls.marketkit.providers.*
+import io.definenulls.marketkit.storage.*
+import io.definenulls.marketkit.syncers.CoinSyncer
+import io.definenulls.marketkit.syncers.ExchangeSyncer
+import io.definenulls.marketkit.syncers.HsDataSyncer
 import io.reactivex.Observable
 import io.reactivex.Single
 import java.math.BigDecimal

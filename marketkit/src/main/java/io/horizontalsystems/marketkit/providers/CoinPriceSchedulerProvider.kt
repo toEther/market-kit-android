@@ -1,8 +1,8 @@
-package io.horizontalsystems.marketkit.providers
+package io.definenulls.marketkit.providers
 
-import io.horizontalsystems.marketkit.managers.CoinPriceManager
-import io.horizontalsystems.marketkit.managers.ICoinPriceCoinUidDataSource
-import io.horizontalsystems.marketkit.models.CoinPrice
+import io.definenulls.marketkit.managers.CoinPriceManager
+import io.definenulls.marketkit.managers.ICoinPriceCoinUidDataSource
+import io.definenulls.marketkit.models.CoinPrice
 import io.reactivex.Single
 
 interface ISchedulerProvider {

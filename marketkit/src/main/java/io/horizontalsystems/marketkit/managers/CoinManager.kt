@@ -1,10 +1,10 @@
-package io.horizontalsystems.marketkit.managers
+package io.definenulls.marketkit.managers
 
-import io.horizontalsystems.marketkit.models.*
-import io.horizontalsystems.marketkit.providers.CoinGeckoProvider
-import io.horizontalsystems.marketkit.providers.DefiYieldProvider
-import io.horizontalsystems.marketkit.providers.HsProvider
-import io.horizontalsystems.marketkit.storage.CoinStorage
+import io.definenulls.marketkit.models.*
+import io.definenulls.marketkit.providers.CoinGeckoProvider
+import io.definenulls.marketkit.providers.DefiYieldProvider
+import io.definenulls.marketkit.providers.HsProvider
+import io.definenulls.marketkit.storage.CoinStorage
 import io.reactivex.Single
 
 class CoinManager(

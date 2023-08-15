@@ -1,9 +1,9 @@
-package io.horizontalsystems.marketkit.syncers
+package io.definenulls.marketkit.syncers
 
 import android.util.Log
-import io.horizontalsystems.marketkit.managers.ExchangeManager
-import io.horizontalsystems.marketkit.providers.CoinGeckoProvider
-import io.horizontalsystems.marketkit.storage.SyncerStateDao
+import io.definenulls.marketkit.managers.ExchangeManager
+import io.definenulls.marketkit.providers.CoinGeckoProvider
+import io.definenulls.marketkit.storage.SyncerStateDao
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
 

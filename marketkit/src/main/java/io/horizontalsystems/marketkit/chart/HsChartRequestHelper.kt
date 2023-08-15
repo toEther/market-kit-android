@@ -1,8 +1,8 @@
-package io.horizontalsystems.marketkit.chart
+package io.definenulls.marketkit.chart
 
-import io.horizontalsystems.marketkit.models.HsPeriodType
-import io.horizontalsystems.marketkit.models.HsPointTimePeriod
-import io.horizontalsystems.marketkit.models.HsTimePeriod
+import io.definenulls.marketkit.models.HsPeriodType
+import io.definenulls.marketkit.models.HsPointTimePeriod
+import io.definenulls.marketkit.models.HsTimePeriod
 import java.util.*
 
 object HsChartRequestHelper {

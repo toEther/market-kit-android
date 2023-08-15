@@ -1,8 +1,8 @@
-package io.horizontalsystems.marketkit.providers
+package io.definenulls.marketkit.providers
 
-import io.horizontalsystems.marketkit.models.AuditReport
-import io.horizontalsystems.marketkit.models.Auditor
-import io.horizontalsystems.marketkit.providers.DefiYieldService.*
+import io.definenulls.marketkit.models.AuditReport
+import io.definenulls.marketkit.models.Auditor
+import io.definenulls.marketkit.providers.DefiYieldService.*
 import io.reactivex.Single
 import java.text.SimpleDateFormat
 import java.util.*

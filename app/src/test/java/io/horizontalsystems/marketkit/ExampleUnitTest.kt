@@ -1,4 +1,4 @@
-package io.horizontalsystems.marketkit
+package io.definenulls.marketkit
 
 import org.junit.Test
 

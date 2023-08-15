@@ -1,6 +1,6 @@
-package io.horizontalsystems.marketkit.storage
+package io.definenulls.marketkit.storage
 
-import io.horizontalsystems.marketkit.models.Exchange
+import io.definenulls.marketkit.models.Exchange
 
 class ExchangeStorage(marketDatabase: MarketDatabase) {
     private val exchangeDao = marketDatabase.exchangeDao()

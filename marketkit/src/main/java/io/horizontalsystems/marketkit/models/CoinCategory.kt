@@ -1,4 +1,4 @@
-package io.horizontalsystems.marketkit.models
+package io.definenulls.marketkit.models
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

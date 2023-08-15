@@ -1,7 +1,7 @@
-package io.horizontalsystems.marketkit.providers
+package io.definenulls.marketkit.providers
 
 import com.google.gson.GsonBuilder
-import io.horizontalsystems.marketkit.HSCache
+import io.definenulls.marketkit.HSCache
 import okhttp3.Cache
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

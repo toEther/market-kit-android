@@ -1,10 +1,10 @@
-package io.horizontalsystems.marketkit.demo
+package io.definenulls.marketkit.demo
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import io.horizontalsystems.marketkit.MarketKit
-import io.horizontalsystems.marketkit.models.*
+import io.definenulls.marketkit.MarketKit
+import io.definenulls.marketkit.models.*
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import kotlinx.coroutines.launch

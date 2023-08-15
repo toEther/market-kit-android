@@ -1,4 +1,4 @@
-package io.horizontalsystems.marketkit.providers
+package io.definenulls.marketkit.providers
 
 import io.reactivex.Flowable
 import io.reactivex.Single

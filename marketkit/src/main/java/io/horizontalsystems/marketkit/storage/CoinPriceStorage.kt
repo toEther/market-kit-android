@@ -1,6 +1,6 @@
-package io.horizontalsystems.marketkit.storage
+package io.definenulls.marketkit.storage
 
-import io.horizontalsystems.marketkit.models.CoinPrice
+import io.definenulls.marketkit.models.CoinPrice
 
 class CoinPriceStorage(marketDatabase: MarketDatabase) {
     private val coinPriceDao = marketDatabase.coinPriceDao()

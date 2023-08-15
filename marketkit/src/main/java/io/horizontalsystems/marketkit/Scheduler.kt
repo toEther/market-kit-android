@@ -1,6 +1,6 @@
-package io.horizontalsystems.marketkit
+package io.definenulls.marketkit
 
-import io.horizontalsystems.marketkit.providers.ISchedulerProvider
+import io.definenulls.marketkit.providers.ISchedulerProvider
 import io.reactivex.Observable
 import io.reactivex.disposables.Disposable
 import io.reactivex.schedulers.Schedulers
